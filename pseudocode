@@ -1,0 +1,67 @@
+Initial pseudocode - partial - Updated on 06/03/2019
+Declare Array processor = [‘p3’, ‘p5’,’p7’]
+Declare Array Pprice = [100, 120, 200]
+Declare Array RAM = [‘16GB’, ‘32GB’]
+Declare Array RAMprice = [75,150]
+Declare processorStock = [5, 7, 5]
+Declare integer orderNumber = 0
+Declare array ordercomponents[], orderprice[], dayorders[]
+Output ( ‘These are the components and the price’)
+Output(‘Please chose from the menu below’)
+
+//Repeat while order = no:
+	Output (processor)
+	Repeat while True:
+		Output(‘Type 1 for {}, 2 for {} and 3 for {}’, processor[0], processor[1], processor[2])
+	Validate option = false:
+		Output ( ‘Not valid option, type again’)
+	Validate Option = True:
+		If choice == 1 then:
+Oredercomponentes.add(processor.[choice-1])
+Orderprice.add(pprice[choice-1]
+processorStock.[choice-1] - 1
+If choice == 2 then:
+Oredercomponentes.add(processor.[choice-1])
+Orderprice.add(pprice[choice-1]
+processorStock.[choice-1] - 1
+
+If choice == 3 then:
+Orderprice.add(pprice[choice-1]
+Oredercomponentes.add(processor.[choice-1])
+processorStock.[choice-1] - 1
+
+Output (processor)
+	Repeat while True:
+		Output(‘Type 1 for {}, 2 for {} ’, RAM[0], RAM[1])
+	Validate option = false:
+		Output ( ‘Not valid option, type again’)
+	Validate Option = True:
+		If choice == 1 then:
+Oredercomponentes.add(RAM.[choice-1])
+Orderprice.add(RAMprice[choice-1]
+RAMStock.[choice-1] - 1
+If choice == 2 then:
+Oredercomponentes.add(RAM.[choice-1])
+Orderprice.add(RAMprice[choice-1]
+RAMStock.[choice-1] - 1
+
+If choice == 3 then:
+Orderprice.add(RAMprice[choice-1]
+Oredercomponentes.add(RAM.[choice-1])
+RAMStock.[choice-1] - 1
+
+
+For items in range(6):
+	Output (‘This is your order’)
+	Output (ordercomponents.[items] + ‘:’+ orderprice[items])
+Output(‘Estimated price is {},  and the final price is {}’, sum(orderprice), sum(orderprice)*1.2)
+Output(‘Proceed the order?’)
+// Input (order) 	/yes or no – 
+Yes – update stock
+No – Start again or ask to exit
+Output (‘Please type uour personal details to proceed’)
+Input(orderdetails.orderNumber)
+For orders in (orderNumber.legth):
+Output(orderNumber[orders]
+Output(orderdetails[orders])
+
