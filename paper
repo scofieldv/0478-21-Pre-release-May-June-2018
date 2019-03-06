@@ -1,0 +1,32 @@
+and testing a program or programs.
+A computer shop will build a computer from components to meet a customer’s requirements. For each
+request for a computer to be built, an estimate of the cost is produced. The component stock level is
+checked; if all the components are in stock, a firm order to build the computer can be placed. A program
+is required to work out the cost of the computer, update the stock levels and provide a daily summary
+of orders for the shop owner.
+Write and test a program or programs for the computer shop owner.
+• Your program or programs must include appropriate prompts for the entry of data.
+• Error messages and other output need to be set out clearly and understandably.
+• All variables, constants and other identifiers must have meaningful names.
+You will need to complete these three tasks. Each task must be fully tested.
+TASK 1 – Produce an estimate.
+Write a program for TASK 1 to calculate the cost of building a computer using these components:
+Component Choices Prices in $
+Processor p3 / p5 / p7 100 / 120 / 200
+RAM 16 GB / 32 GB 75 / 150
+Storage 1 TB / 2 TB 50 / 100
+Screen 19" / 23" 65 / 120
+Case Mini Tower / Midi Tower 40 / 70
+USB ports 2 ports / 4 ports 10 / 20
+The customer makes a choice for each component and an estimate is produced. The estimate must
+show a unique estimate number, the components chosen and the price of each component. The
+estimate must also show the total cost of the computer, which is calculated as the sum of the cost of
+the components chosen plus 20%.
+TASK 2 – Place an order.
+Using your estimate from TASK 1, check if the components required are in stock. If all the components
+are in stock then update the stock levels. Add the unique estimate number to the list of order numbers.
+Add the customer’s details and today’s date to the estimate details to finalise the order. Print two
+copies of the order, one for the customer and one for the shop.
+TASK 3 –Summarise the day’s orders.
+Extend TASK 2 to provide an end of day summary showing the number of orders made, the total
+number of each component sold and the value of the orders
